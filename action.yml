@@ -9,10 +9,10 @@ branding:
   color: "green"
 inputs:
   email:
-    description: The commiter's e mail address 
+    description: The commiters e mail address 
     required: true
     default: ${{ github.actor }}@localhost
   name:
-    description: The commiter's name
+    description: The commiters name
     required: true
     default: ${{ github.actor }}
